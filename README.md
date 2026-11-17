@@ -67,7 +67,7 @@ docker exec <container> telegram-bot-api --version   # writes to stderr
 
 A bot can also ask the running server directly, which is the answer that
 actually matters: whether it implements the methods that bot needs. See
-`Client.Preflight` in [FreshLabDev/tg](https://github.com/FreshLabDev/tg).
+`Client.Preflight` in [asterfield-dev/tg](https://github.com/asterfield-dev/tg).
 
 ## What is pinned
 
@@ -91,7 +91,7 @@ docker run --rm \
   -e TELEGRAM_API_ID -e TELEGRAM_API_HASH \
   -e TELEGRAM_LOCAL=1 \
   -v ./data:/var/lib/telegram-bot-api \
-  ghcr.io/freshlabdev/telegram-bot-api@sha256:...
+  ghcr.io/asterfield-dev/telegram-bot-api@sha256:...
 ```
 
 | Variable | Default | What it does |

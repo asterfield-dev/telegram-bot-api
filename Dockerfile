@@ -53,7 +53,7 @@ ARG EXPECTED_BOT_API
 # inspect command; drop the freshlab one once no old image is in use.
 LABEL org.opencontainers.image.title="telegram-bot-api" \
       org.opencontainers.image.description="Telegram Bot API server built from pinned tdlib sources" \
-      org.opencontainers.image.source="https://github.com/FreshLabDev/telegram-bot-api" \
+      org.opencontainers.image.source="https://github.com/asterfield-dev/telegram-bot-api" \
       org.opencontainers.image.licenses="BSL-1.0" \
       org.opencontainers.image.version="${EXPECTED_BOT_API}" \
       org.asterfield.upstream.commit="${BOT_API_COMMIT}" \

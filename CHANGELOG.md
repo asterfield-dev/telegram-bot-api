@@ -13,6 +13,13 @@ See [`docs/versioning.md`](docs/versioning.md) for what the numbers mean and
 
 Use this section for changes that are merged but not released yet.
 
+### Changed
+
+- **Images are published as `ghcr.io/asterfield-dev/telegram-bot-api`.** The
+  GitHub organization FreshLabDev is now asterfield-dev, and GitHub Container
+  Registry does not redirect the old name: `ghcr.io/freshlabdev/...` answers
+  403. Every earlier digest is there under the new path too.
+
 ## v10.4-1 - 2026-11-09
 
 Bot API 10.4: widgets in messages and ephemeral replies to a button press.
@@ -55,7 +62,7 @@ First Asterfield build. Bot API 10.3.
 - `TELEGRAM_FILES_DIR` support (Bot API 10.3). Media can now live outside the
   working directory, which is what lets a bot be given its own media directory
   without any `td.binlog` — its own or another bot's — coming along with it.
-- Published to `ghcr.io/freshlabdev/telegram-bot-api`, no `latest` tag:
+- Published to `ghcr.io/asterfield-dev/telegram-bot-api`, no `latest` tag:
   deployments pin a digest.
 - The deployment sets `TELEGRAM_VERBOSITY=1`, so the server at least reports
   its own errors; its default of 0 is FATAL-only and says nothing even when

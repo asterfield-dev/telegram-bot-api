@@ -16,7 +16,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE: ghcr.io/freshlabdev/telegram-bot-api
+  IMAGE: ghcr.io/asterfield-dev/telegram-bot-api
 
 jobs:
   build:
